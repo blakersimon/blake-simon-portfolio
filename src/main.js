@@ -10,6 +10,11 @@ const projects = [
     title: 'Lynchburg Parcels Voice Dashboard',
     description: 'An interactive GIS dashboard featuring in-browser voice querying built purely with Vanilla JavaScript for hands-free parcel data exploration.',
     url: 'https://lynchburg-parcels-voice-dashboard.blake-simon.com'
+  },
+  {
+    title: 'Drone Video Mapper',
+    description: 'A web application for processing, analyzing, and mapping geospatial drone video footage on interactive maps.',
+    url: 'https://drone-mapper-app.blake-simon.com/'
   }
 ];
 
