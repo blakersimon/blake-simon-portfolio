@@ -15,6 +15,11 @@ const projects = [
     title: 'Drone Video Mapper',
     description: 'A web application for processing, analyzing, and mapping geospatial drone video footage on interactive maps.',
     url: 'https://drone-mapper-app.blake-simon.com/'
+  },
+  {
+    title: '3D Coastal Flood Visualizer',
+    description: 'A high-performance 3D geospatial web application for simulating sea-level rise and real-time flood impacts on property parcels with interactive 3D terrain and Google Street View integration.',
+    url: 'https://3d-flood-viz.blake-simon.com/'
   }
 ];
 
