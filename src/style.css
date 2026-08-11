@@ -183,15 +183,7 @@ body {
 
 /* Video Preview & Tags inside Cards */
 .project-card-video {
-  padding: 0;
   cursor: pointer;
-}
-
-.project-card-video .project-card-content {
-  padding: 1.75rem 2rem 2rem 2rem;
-  display: flex;
-  flex-direction: column;
-  flex-grow: 1;
 }
 
 .project-media-wrapper {
@@ -200,7 +192,9 @@ body {
   aspect-ratio: 16 / 9;
   background: #000;
   overflow: hidden;
-  border-bottom: 1px solid var(--glass-border);
+  border-radius: 12px;
+  border: 1px solid var(--glass-border);
+  margin-bottom: 1.5rem;
 }
 
 .project-video-preview {

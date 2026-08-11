@@ -90,6 +90,8 @@ function renderProjects() {
         : '';
 
       card.innerHTML = `
+        <h3 class="project-title">${project.title}</h3>
+        <p class="project-desc">${project.description}</p>
         <div class="project-media-wrapper">
           <video 
             src="${project.videoUrl}" 
@@ -107,16 +109,11 @@ function renderProjects() {
             </div>
           </div>
         </div>
-        <div class="project-card-content">
-          ${tagsHTML}
-          <h3 class="project-title">${project.title}</h3>
-          <p class="project-desc">${project.description}</p>
-          <div class="project-link-text">
-            Watch Video Demo
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <polygon points="5 3 19 12 5 21 5 3"/>
-            </svg>
-          </div>
+        <div class="project-link-text">
+          Watch Video Demo
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polygon points="5 3 19 12 5 21 5 3"/>
+          </svg>
         </div>
       `;
 
