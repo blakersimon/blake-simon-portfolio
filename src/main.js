@@ -2,13 +2,6 @@ import './style.css'
 
 const projects = [
   {
-    title: 'Stop Sign Detection & Tracking System',
-    description: 'Real-time computer vision system built to detect, track, and log stop sign compliance from video streams and spatial imagery.',
-    videoUrl: '/assets/videos/stop_sign_demo.mp4',
-    isVideo: true,
-    tags: ['Computer Vision', 'Python', 'OpenCV']
-  },
-  {
     title: 'Lynchburg Parcels LLM Dashboard',
     description: 'An AI-powered dashboard for querying, analyzing, and visualizing Lynchburg parcel data using natural language.',
     url: 'https://lynchburg-parcels-llm-dashboard.blake-simon.com'
@@ -27,6 +20,12 @@ const projects = [
     title: '3D Coastal Flood Visualizer',
     description: 'A high-performance 3D geospatial web application for simulating sea-level rise and real-time flood impacts on property parcels with interactive 3D terrain and Google Street View integration.',
     url: 'https://3d-flood-viz.blake-simon.com/'
+  },
+  {
+    title: 'Stop Sign Detection & Tracking System',
+    description: 'Real-time computer vision and deep learning system built to detect, track, and log stop sign compliance from recorded driving video.',
+    videoUrl: '/assets/videos/stop_sign_demo.mp4',
+    isVideo: true
   }
 ];
 
