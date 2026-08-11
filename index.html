@@ -27,6 +27,18 @@
         </div>
       </section>
     </main>
+    <!-- Video Demo Modal -->
+    <div id="video-modal" class="video-modal" aria-hidden="true">
+      <div class="video-modal-backdrop" id="video-modal-backdrop"></div>
+      <div class="video-modal-container">
+        <button id="video-modal-close" class="video-modal-close" aria-label="Close modal">&times;</button>
+        <h3 id="video-modal-title" class="video-modal-title">Stop Sign Detection & Tracking System</h3>
+        <div class="video-wrapper">
+          <video id="modal-video-player" controls playsinline preload="metadata"></video>
+        </div>
+      </div>
+    </div>
+
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
