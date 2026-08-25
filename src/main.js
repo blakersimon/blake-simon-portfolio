@@ -2,6 +2,11 @@ import './style.css'
 
 const projects = [
   {
+    title: 'Houston Bayou Watch',
+    description: 'A real-time flood intelligence and hydrological monitoring dashboard for Harris County featuring live USGS stream gauges, FEMA flood zone risk assessment, and historical storm playback.',
+    url: 'https://houston-bayou-watch.blake-simon.com/'
+  },
+  {
     title: 'Lynchburg Parcels LLM Dashboard',
     description: 'An AI-powered dashboard for querying, analyzing, and visualizing Lynchburg parcel data using natural language.',
     url: 'https://lynchburg-parcels-llm-dashboard.blake-simon.com'
